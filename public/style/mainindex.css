@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bodywrapper {
+  padding: 10px;
+}
+.CodeMirror {
+  margin: 0;
+}
+.title {
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linebanner {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: antiquewhite;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.boxmargin {
+  margin: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.box2 {
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+}
+.box4 {
+  width: 600px;
+  height: 100px;
+  background-color: blue;
+}
+
+.outbox {
+  display: flex;
+  background-color: rgb(60, 163, 60);
+  width: 200px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.outbox > p {
+  font-size: 8px;
+  color: white;
+  font-style: none;
+}
+
+.inbox {
+  background-color: white;
+  width: 180px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
